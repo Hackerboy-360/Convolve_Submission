@@ -1,0 +1,13 @@
+# Qdrant vector database configuration for financial risk analysis
+# Assumes local Qdrant instance; adjust for cloud if needed
+host: "localhost"
+port: 6333
+collection_name: "financial_events"
+vector_size: 384  # Dimension for pre-trained embedding (e.g., Sentence-BERT)
+distance: "Cosine"  # Similarity metric for retrieval
+metadata_fields:
+  - event_type: string
+  - sector: string
+  - timestamp: string
+  - historical_risk: float  # 0-1 scale
+  - historical_confidence: float  # 0-1 scale

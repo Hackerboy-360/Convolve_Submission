@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "description": "Sudden volatility spike in equities market due to geopolitical event",
+    "event_type": "volatility_spike",
+    "sector": "equities",
+    "timestamp": "2020-03-15T00:00:00Z",
+    "historical_risk": 0.8,
+    "historical_confidence": 0.9
+  },
+  {
+    "id": 2,
+    "description": "Commodity price anomaly from supply chain disruption",
+    "event_type": "price_anomaly",
+    "sector": "commodities",
+    "timestamp": "2021-05-20T00:00:00Z",
+    "historical_risk": 0.6,
+    "historical_confidence": 0.8
+  },
+  {
+    "id": 3,
+    "description": "Insider trading signal in tech sector",
+    "event_type": "insider_signal",
+    "sector": "technology",
+    "timestamp": "2019-11-10T00:00:00Z",
+    "historical_risk": 0.7,
+    "historical_confidence": 0.7
+  }
+]
