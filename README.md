@@ -27,6 +27,3 @@ A backend system for quant-driven financial risk analysis using vector similarit
 - `api.py`: Flask API.
 - `historical_events.json`: Sample data.
 - `test_api.py`: Test script.
-
-## Submission
-Zip the project folder for hackathon submission. Focuses on societal impact through evidence-based financial risk assessment.
